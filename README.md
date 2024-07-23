@@ -45,10 +45,13 @@ step1.2 conda activate myenv
 
 Step2. 
 conda install python=3.6 pytorch torchvision matplotlib pandas -c pytorch
-step3. 
+
+Step3. 
 conda install -c conda-forge kivy
-step4 .matpotlab issue
+
+Step4 .matpotlab issue
 conda install -c conda-forge matplotlib
+
 Step 5.
 pip install pygame
 
