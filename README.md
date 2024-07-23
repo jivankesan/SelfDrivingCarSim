@@ -36,23 +36,15 @@ This project simulates a self-driving car in a custom environment. It uses Kivy 
 
 Environment Set Up Instructions:
 
-If you are using pycharm, use this environment as your enterpreter
+conda create -n myenv python=3.6
+conda activate myenv
 
-Either use terminal or conda command promt
-
-step1.1 conda create -n myenv python=3.6
-step1.2 conda activate myenv
-
-Step2. 
 conda install python=3.6 pytorch torchvision matplotlib pandas -c pytorch
 
-Step3. 
 conda install -c conda-forge kivy
 
-Step4 .matpotlab issue
 conda install -c conda-forge matplotlib
 
-Step 5.
 pip install pygame
 
 ## Usage
